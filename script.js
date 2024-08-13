@@ -102,7 +102,7 @@ function clearStatusClass(element){
 const questions = [
   {
     question: 'Which one of these is a JavaScript framework',
-    answers: [
+    answer: [
       {text: 'Python', correct: false},
       {text: 'Django', correct: false},
       {text: 'React', correct: true},
@@ -111,14 +111,14 @@ const questions = [
   },
   {
     question: 'Who is the prime minister of Singapore',
-    answers: [
+    answer: [
       {text: 'Lawrence Wong', correct: true},
       {text: 'Anwar Ibrahim', correct: false},
     ],
   },
   {
     question: 'what is 4 + 3 ?',
-    answers: [
+    answer: [
      {text: '7', correct: true},
      {text: '8', correct: false},
     ],

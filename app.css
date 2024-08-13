@@ -17,10 +17,11 @@ body {
 }
 
 body.correct {
-  --hue: var(--hue-correct)
+  --hue: var(--hue-correct);
+  color: black;
 }
 body.wrong {
-  --hue: var(--hue-wrong)
+  --hue: var(--hue-wrong);
 }
 .container {
   width: 800px;
